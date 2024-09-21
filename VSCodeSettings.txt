@@ -1,7 +1,10 @@
+Reload vs code for setting change to kick in
+// For mac -  (command + shift + p) and search for Reload (Developer: Reload Window)
+
 
 // For mac - Code > Preferences > Settings > Edit in setting.json
 OR
-For command-based - (command + shift + p) and search for settings (Settings Sync: Show settings) > Edit in setting.json
+// For command-based - (command + shift + p) and search for settings (Settings Sync: Show settings) > Edit in setting.json
 
 
 // Enable code formatting on file save and set defaulFormatter for typescript files.
@@ -26,4 +29,11 @@ For command-based - (command + shift + p) and search for settings (Settings Sync
 // import module in relative instead of an absolute path
 "javascript.preferences.importModuleSpecifier": "relative",
 "typescript.preferences.importModuleSpecifier": "relative",
+
+// eslint extension enable. PreRequiste - The project must configure for eslint with .eslintrc.js
+// Very helpful in fixing most lint issues on save but it is difficult to set up or might be easy but worth it
+"eslint.enable": true, // Enable eslint functionality
+"eslint.useFlatConfig": false, // Keep it false as then it use your local .eslintrc.js
+"eslint.debug": true, // When set to true, in output provide more detail logs
+"eslint.codeActionsOnSave.mode": "all", // Default is `all`, Fix all possible eslint issue
 
