@@ -4,8 +4,9 @@ OR
 For command-based - (command + shift + p) and search for settings (Settings Sync: Show settings) > Edit in setting.json
 
 
-// Enable code formatting on file save.
+// Enable code formatting on file save and set defaulFormatter for typescript files.
 "editor.formatOnSave": true,
+"editor.defaultFormatter": "vscode.typescript-language-features",
 
 // Order imports and Remove unused imports.
 "javascript.preferences.importModuleSpecifier": "relative",
