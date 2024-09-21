@@ -12,7 +12,7 @@ For command-based - (command + shift + p) and search for settings (Settings Sync
 "javascript.preferences.importModuleSpecifier": "relative",
 "typescript.preferences.importModuleSpecifier": "relative",
 
-// Allow to organize imports on save and can assign multiple task
+// Allow to organize imports on save and assign multiple tasks in codeActionsOnSave
 "editor.codeActionsOnSave": {
         "source.organizeImports": "always", // Organizes imports on save
         "source.fixAll": "always",
@@ -23,4 +23,7 @@ For command-based - (command + shift + p) and search for settings (Settings Sync
 "typescript.format.enable": true, // Enables TypeScript formatting
 "javascript.format.enable": true,
 
+// import module in relative instead of an absolute path
+"javascript.preferences.importModuleSpecifier": "relative",
+"typescript.preferences.importModuleSpecifier": "relative",
 
