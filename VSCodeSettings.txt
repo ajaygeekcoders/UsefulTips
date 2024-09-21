@@ -1,0 +1,23 @@
+
+// For mac - Code > Preferences > Settings > Edit in setting.json
+OR
+For command-based - (command + shift + p) and search for settings (Settings Sync: Show settings) > Edit in setting.json
+
+
+// Enable code formatting on file save.
+"editor.formatOnSave": true,
+
+// Order imports and Remove unused imports.
+"javascript.preferences.importModuleSpecifier": "relative",
+"typescript.preferences.importModuleSpecifier": "relative",
+
+// Allow to organize imports on save and can assign multiple task
+"editor.codeActionsOnSave": {
+        "source.organizeImports": true, // Organizes imports on save
+        "source.fixAll.eslint": true, // Fixes ESLint issues (including unused imports)
+        "source.fixAll": true
+},
+
+// Enable formatting for typescript and javascript
+"typescript.format.enable": true, // Enables TypeScript formatting
+"javascript.format.enable": true,
