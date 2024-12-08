@@ -37,3 +37,7 @@ OR
 "eslint.debug": true, // When set to true, in output provide more detail logs
 "eslint.codeActionsOnSave.mode": "all", // Default is `all`, Fix all possible eslint issue
 
+// Auto import sorting adds a new blank line, and Eslint also adds a new line, which makes two new lines, and Eslint gives an error.
+// So, below 2 settings remove extra lines and fix the above issue. This issue happens in index.ts which contain all imports statemtments 
+"files.insertFinalNewline": true,  
+"files.trimFinalNewlines": true
